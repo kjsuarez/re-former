@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   
-  resources :users, only: [:new, :create, :edit, :update]
+  resources :users, only: [:new, :create, :edit, :update, :show]
 
   # You can have the root of your site routed with "root"
   root 'users#index'
