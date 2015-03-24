@@ -1,1 +1,2 @@
-<%= "#{user.username}: #{user.email}" %>
+<%= link_to "#{user.id}) #{user.username}, #{user.email}", edit_user_path(user) %>
+<br />
